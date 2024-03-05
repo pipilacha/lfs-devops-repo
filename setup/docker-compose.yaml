@@ -10,7 +10,7 @@ volumes:
 
 services:
   jenkins:
-    image: jenkins/jenkins:2.447-jdk17
+    image: pipilacha/jenkins:2.447-jdk17
     build:
       context: .
       dockerfile: Dockerfile
